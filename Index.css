@@ -1,0 +1,181 @@
+style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f2f7fb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #87ceeb;
+      padding: 15px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .navbar-container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo img {
+      width: 100px;
+      height: auto;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition:  0.3s, color 0.3s;
+    }
+
+    .nav-links li a:hover {
+      background-color: #064663;
+      color: #0a8dc1;
+    }
+/* Hero Section with Shadow on Full Image */
+.hero {
+  height: 100vh;
+  background: url('business-bay-19645_xl.jpg') no-repeat center center/cover;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6); /* SHADOW ON FULL SECTION */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 60px;
+  text-align: center;
+  border-radius: 0;
+}
+.hero-content h1 {
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+.hero-content p {
+  color: #ddd;
+  font-size: 1.3rem;
+}
+
+/* Full-width Team Image */
+.team-image {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  max-height: 400px;
+}
+
+
+
+/* Bottom Image Gallery (Before Footer) */
+.image-gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 20px;
+  background-color: #ffffff;
+}
+.gallery-image {
+  width: 32%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+
+
+/* Footer */
+footer {
+  background-color: #009ddc;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+.footer-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+.footer-icons a:hover {
+  color: #ffdf2b;
+}
+/* WHY CHOOSE US STYLING */
+.why-choose-us {
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+.why-choose-us h2 {
+  color: #009ddc;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+.why-description {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+.why-list {
+  list-style-type: disc;
+  padding-left: 30px;
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+.why-list li {
+  margin-bottom: 15px;
+}
+
+/* IMAGE GALLERY STYLING */
+.image-gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+.image-gallery a {
+  flex: 1;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.gallery-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+
+/* ZOOM EFFECT ON CLICK */
+.image-gallery a:hover .gallery-image {
+  transform: scale(1.05);
+}
+
+
+
+

@@ -1,0 +1,159 @@
+style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f2f7fb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #87ceeb;
+      padding: 15px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .navbar-container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo img {
+      width: 100px;
+      height: auto;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition:  0.3s, color 0.3s;
+    }
+
+    
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #7f901c;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #1e6f2d;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #2d323b;
+}
+
+/* Services Section Layout */
+.service-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  background-color: rgba(29, 101, 183, 0.2);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.service-section:hover {
+  transform: scale(1.02);
+}
+
+.service-text {
+  flex: 1;
+  min-width: 300px;
+  padding-right: 20px;
+}
+
+.service-section img {
+  flex: 1;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+/* Zoom on click */
+.service-section img:active {
+  transform: scale(1.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .service-section {
+    flex-direction: column;
+  }
+
+  .service-text, .service-section img {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .service-section img {
+    margin-top: 20px;
+  }
+}
+
+.footer {
+  background-color: #009de0; /* Sky blue */
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer .social-icons {
+  margin-bottom: 15px;
+}
+
+.footer .social-icons a {
+  color: white;
+  margin: 0 15px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  color: #e0f7ff;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 16px;
+}

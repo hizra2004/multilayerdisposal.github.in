@@ -1,0 +1,253 @@
+
+    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f2f7fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #87ceeb;
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition:  0.3s, color 0.3s;
+}
+
+.nav-links li a:hover {
+  background-color: #064663;
+  color: #0a8dc1;
+}
+about-us-section {
+  background: linear-gradient(135deg, #d0f0c0, #b3e5fc); /* green-blue blend */
+  padding: 60px 30px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #004d40;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-text h2 {
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+  color: #00695c;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.about-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-box {
+  background-color: #ffffffdd;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.about-box:hover {
+  transform: translateY(-5px);
+}
+
+.about-box h4 {
+  color: #00796b;
+  margin-bottom: 8px;
+}
+
+.about-image {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 20px;
+  background-color: #ffffff;
+}
+
+
+
+.footer {
+  background-color: #009de0; /* Sky blue */
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer .social-icons {
+  margin-bottom: 15px;
+}
+
+.footer .social-icons a {
+  color: white;
+  margin: 0 15px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  color: #e0f7ff;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+
+
+.clients-section {
+  background-color: #f2f2f2;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.clients-section h2 {
+  font-size: 2.3rem;
+  margin-bottom: 25px;
+  color: #333;
+  font-weight: 600;
+}
+
+.client-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px 0;
+}
+
+.client-logos img {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.8;
+  transition: filter 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+}
+
+.client-logos img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.05);
+}
+.clients-section {
+  background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+  padding: 70px 30px;
+  text-align: center;
+  position: relative;
+}
+
+.clients-section h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #1b4b5a;
+  margin-bottom: 50px;
+  position: relative;
+  display: inline-block;
+}
+
+.clients-section h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #4db6ac;
+  margin: 10px auto 0;
+  border-radius: 5px;
+}
+
+.client-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.client-logos img {
+  width: 130px;
+  height: auto;
+  padding: 15px;
+  background: #14c271;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(239, 66, 66, 0.1);
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
+}
+
+.client-logos img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(12, 108, 25, 0.2);
+}

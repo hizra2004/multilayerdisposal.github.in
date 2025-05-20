@@ -1,0 +1,179 @@
+style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f2f7fb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #87ceeb;
+      padding: 15px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .navbar-container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo img {
+      width: 100px;
+      height: auto;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition:  0.3s, color 0.3s;
+    }
+
+    .nav-links li a:hover {
+      background-color: #064663;
+      color: #0a8dc1;
+    }
+  
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      color: #111;
+    }
+    
+    .quote-section {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    
+    .quote-section h1 {
+      color: #2b26ac;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      border-bottom: 3px solid #00cc44;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    
+    .quote-section p {
+      margin-bottom: 30px;
+      font-size: 1.1em;
+    }
+    
+    .quote-form {
+      background-color: #3689e9;
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 30px 20px;
+      border-radius: 6px;
+      color: #fff;
+    }
+    
+    .quote-form label {
+      display: block;
+      text-align: left;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-size: 0.95em;
+    }
+    
+    .quote-form input,
+    .quote-form select,
+    .quote-form textarea {
+      width: 90%;
+      padding: 10px;
+      font-size: 1em;
+      border: none;
+      border-bottom: 2px solid #fff;
+      color: white;
+      outline: none;
+    }
+    
+    .quote-form select {
+      background-color: #c6cde4;
+      color: #fff;
+    }
+    
+    .quote-form textarea {
+      resize: vertical;
+      min-height: 60px;
+    }
+    
+    .captcha-box {
+      display: flex;
+      align-items: center;
+      margin: 20px 0;
+      background: #fff;
+      color: #000;
+      padding: 10px;
+      border-radius: 4px;
+    }
+    
+    .captcha-box input {
+      margin-right: 10px;
+    }
+    
+    .quote-form button {
+      margin-top: 10px;
+      padding: 12px;
+      width: 100%;
+      background-color: #fff;
+      color: #294675;
+      border: none;
+      font-size: 1em;
+      border-radius: 4px;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+    
+    .quote-form button:hover {
+      background-color: #f0f0f0;
+    }
+    
+.footer {
+  background-color: #009de0; /* Sky blue */
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer .social-icons {
+  margin-bottom: 15px;
+}
+
+.footer .social-icons a {
+  color: white;
+  margin: 0 15px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  color: #e0f7ff;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 16px;
+}
